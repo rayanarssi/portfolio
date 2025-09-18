@@ -1,0 +1,87 @@
+.home-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+}
+
+.home-content .name {
+	font-size: 4rem;
+	font-weight: 700;
+	color: var(--white);
+	margin-bottom: 0;
+}
+
+.home-content .title {
+	font-size: 1.5rem;
+	color: var(--light-text);
+	margin-top: 10px;
+}
+
+.home-content .introduction {
+	max-width: 600px;
+	margin: 20px auto 40px;
+	line-height: 1.6;
+}
+
+.home-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.social-icons {
+	margin-top: 40px;
+}
+
+.social-icons a {
+	display: inline-block;
+	margin: 0 10px;
+	color: var(--primary-color);
+	border: 2px solid var(--primary-color);
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+	background-color: var(--primary-color);
+	color: var(--white);
+}
+
+.social-icons svg {
+	width: 25px;
+	height: 25px;
+}
+
+.scroll-indicator {
+	position: absolute;
+	bottom: 50px;
+}
+
+.scroll-indicator a {
+	color: var(--white);
+	font-size: 3rem;
+	animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-20px);
+	}
+	60% {
+		transform: translateY(-10px);
+	}
+}
