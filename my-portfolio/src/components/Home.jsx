@@ -7,7 +7,7 @@ const Home = () => {
 		<section id="home" className="home-section">
 			<div className="home-content">
 				<h1 className="name">Rayan Arssi</h1>
-				<p className="title">Junior Frontend Developer & Web Designer</p>
+				<p className="title">Junior Frontend Developer & UX Designer</p>
 				<p className="introduction">
 					Crafting digital experiences with modern web technologies.
 					Specializing in React, Node.js, and beautiful user interfaces.
@@ -31,26 +31,15 @@ const Home = () => {
 					</Link>
 				</div>
 				<div className="social-icons">
-					<a
-						href="https://github.com"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<FaGithub />
-					</a>
-					<a
-						href="https://linkedin.com"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<FaLinkedin />
-					</a>
+					<img src="./src/assets/Github.svg" alt="GitHub" />
+					<img src="./src/assets/LinkedIn.svg" alt="LinkedIn" />
+					<img src="./src/assets/Email.svg" alt="Email" />
 				</div>
-			</div>
-			<div className="scroll-indicator">
-				<Link to="about" smooth={true} duration={500}>
-					<BsArrowDownShort />
-				</Link>
+				<div className="scroll-indicator">
+					<Link to="about" smooth={true} duration={500}>
+						<img src="./src/assets/Arrow.svg" alt="Scroll Down" />
+					</Link>
+				</div>
 			</div>
 		</section>
 	);

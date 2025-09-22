@@ -1,22 +1,33 @@
 [
 	{
-		"picture": "/assets/blanco-viz.png",
+		"picture": "src/assets/blancoviz.png",
 		"title": "BlancoViz",
 		"text": "A full-stack web application with a frontend website and a backend API. The frontend communicates with the backend API to perform full CRUD functionality. This was my first time working with both a database and an API.",
-		"Softwares": ["MongoDB", "API", "HTML/CSS", "Webpack", "Nodemailer"],
+		"Softwares": ["MongoDB", "API", "HTML/CSS", "Webpack"],
 		"Links": [
-			{ "label": "Live Demo", "url": "#" },
-			{ "label": "Code", "url": "#" },
-			{ "label": "Figma", "url": "#" }
+			{
+				"img": "src/assets/Project_live_icon.svg",
+				"label": "Live Demo",
+				"url": "#"
+			},
+			{
+				"label": "Code",
+				"url": "#"
+			},
+			{
+				"label": "Figma",
+				"url": "#"
+			}
 		]
 	},
 	{
-		"picture": "/assets/sorrybox.png",
+		"picture": "src/assets/sorrybox.png",
 		"title": "Sorrybox",
 		"text": "A client project built to help young children learn how to say sorry in a fun and supportive way. I developed an AI-powered chatbot that kids can talk to, along with other features to make the website more engaging.",
 		"Softwares": ["Node.js", "HTML/CSS", "JavaScript", "AI/Chatbot"],
 		"Links": [
 			{
+				"img": "src/assets/Project_live_icon.svg",
 				"label": "Live Demo",
 				"url": "https://ehb-mct.github.io/projectfiles-chill/index.html"
 			},
@@ -24,21 +35,31 @@
 				"label": "Code",
 				"url": "https://github.com/EHB-MCT/projectfiles-chill"
 			},
-			{ "label": "Figma", "url": "#" }
+			{
+				"label": "Figma",
+				"url": "#"
+			}
 		]
 	},
 	{
-		"picture": "",
+		"picture": "src/assets/Shift.png",
 		"title": "Shift Festival",
 		"text": "This group project was developed with fellow students, where I focused on the festival’s design. I contributed to shaping the concept, creating the posters, and designing the website’s visual identity.",
 		"Softwares": ["Adobe Illustrator", "Figma", "Photoshop"],
 		"Links": [
-			{ "label": "Live Demo", "url": "#" },
-			{ "label": "Figma", "url": "#" }
+			{
+				"img": "src/assets/Project_live_icon.svg",
+				"label": "Live Demo",
+				"url": "#"
+			},
+			{
+				"label": "Figma",
+				"url": "#"
+			}
 		]
 	},
 	{
-		"picture": "",
+		"picture": "src/assets/Cortex.png",
 		"title": "Cortex Connect",
 		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
 		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot", "3D Maya"],

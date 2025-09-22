@@ -38,7 +38,7 @@ const Contact = () => {
 				</p>
 				<div className="contact-details">
 					<div className="detail-item">
-						<FaEnvelope />
+						<img src="/assets/email-icon.png" alt="Email Icon" />
 						<p>
 							Email
 							<br />
@@ -46,7 +46,7 @@ const Contact = () => {
 						</p>
 					</div>
 					<div className="detail-item">
-						<FaPhone />
+						<img src="/assets/phone-icon.png" alt="Phone Icon" />
 						<p>
 							Phone
 							<br />
@@ -54,7 +54,7 @@ const Contact = () => {
 						</p>
 					</div>
 					<div className="detail-item">
-						<FaMapMarkerAlt />
+						<img src="/assets/location-icon.png" alt="Location Icon" />
 						<p>
 							Location
 							<br />

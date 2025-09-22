@@ -4,12 +4,18 @@
 body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
-	background-color: var(--background-dark);
-	color: var(--light-text);
+	background-image: url("./src/assets/background.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 section {
@@ -28,20 +34,6 @@ h2 {
 	margin-bottom: 2rem;
 	color: var(--white);
 	text-align: center;
-}
-
-/* For the grid background and wave shapes */
-body::before {
-	content: "";
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url("/assets/grid-background.svg"); /* You need to create this image */
-	background-size: cover;
-	opacity: 0.1;
-	z-index: -1;
 }
 
 /* General button styles */
@@ -64,7 +56,7 @@ body::before {
 }
 
 .cta-button:last-child {
-	background-color: transparent;
+	background-color: var(--white);
 	color: var(--primary-color);
 	border: 2px solid var(--primary-color);
 }
