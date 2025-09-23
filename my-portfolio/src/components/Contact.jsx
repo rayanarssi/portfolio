@@ -2,31 +2,57 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
 const Contact = () => {
 	const form = useRef();
 
-	const sendEmail = (e) => {
+	const sendEmail = async (e) => {
 		e.preventDefault();
 
-		emailjs
-			.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
-				publicKey: "YOUR_PUBLIC_KEY",
-			})
-			.then(
-				() => {
-					console.log("SUCCESS!");
-					alert("Message sent successfully!");
-					form.current.reset();
-				},
-				(error) => {
-					console.log("FAILED...", error.text);
-					alert("Failed to send the message. Please try again.");
-				}
-			);
-	};
+		// Guardrails: make sure keys are present
+		if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
+			alert("Email service is not configured. Please try again later.");
+			console.error("EmailJS ENV missing", {
+				SERVICE_ID,
+				TEMPLATE_ID,
+				PUBLIC_KEY,
+			});
+			return;
+		}
 
+		try {
+			const result = await emailjs.sendForm(
+				SERVICE_ID,
+				TEMPLATE_ID,
+				form.current,
+				{ publicKey: PUBLIC_KEY }
+			);
+
+			console.log("SUCCESS!", result);
+			alert("Message sent successfully!");
+			form.current?.reset();
+		} catch (err) {
+			console.error("FAILED...", err?.text || err);
+			alert("Failed to send the message. Please try again.");
+		}
+	};
 	return (
 		<section id="contact" className="contact-section">
+			<img
+				className="contact_purple"
+				src="src/assets/Contact_purple.svg"
+				alt=""
+			/>
+			<img
+				className="contact_lightblue"
+				src="src/assets/Contact_lightblue.svg"
+				alt=""
+			/>
+			<img className="contacts_blue" src="src/assets/Contact_blue.svg" alt="" />
+
 			<h2 className="contact-title">Get In Touch</h2>
 			<div className="contact-container">
 				<div className="contact-info">

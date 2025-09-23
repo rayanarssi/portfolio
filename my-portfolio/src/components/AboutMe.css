@@ -4,6 +4,23 @@
 	top: -10vh;
 }
 
+.about_red {
+	position: absolute;
+	top: 10vh;
+	left: -20vw;
+	width: 35%;
+	height: auto;
+	z-index: 1;
+}
+.about_pink {
+	position: absolute;
+	top: 20vh;
+	right: -20vw;
+	width: 30%;
+	height: auto;
+	z-index: -1;
+}
+
 .about-main {
 	display: flex;
 	align-items: center;
@@ -38,7 +55,6 @@
 .about-content {
 	flex: 1;
 	max-width: 600px;
-	background-color: var(--white);
 	border-radius: 20px;
 	padding: 40px;
 }

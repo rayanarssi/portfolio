@@ -5,9 +5,35 @@ import "./Home.css";
 const Home = () => {
 	return (
 		<section id="home" className="home-section">
+			<img
+				className="home_blue"
+				src="./src/assets/Home_blue.svg"
+				alt="Rayan Arssi"
+			/>
+			<img
+				className="home_green"
+				src="./src/assets/Home_green.svg"
+				alt="Rayan Arssi"
+			/>
+			<img
+				className="home_yellow"
+				src="./src/assets/Home_yellow.svg"
+				alt="Rayan Arssi"
+			/>
+			<img
+				className="home_lightblue"
+				src="./src/assets/Home_lightblue.svg"
+				alt="Rayan Arssi"
+			/>
+			<img
+				className="home_purple"
+				src="./src/assets/Home_purple.svg"
+				alt="Rayan Arssi"
+			/>
+
 			<div className="home-content">
 				<h1 className="name">Rayan Arssi</h1>
-				<p className="title">Junior Frontend Developer & UX Designer</p>
+				<p className="title">Frontend Developer & UX/UI Designer</p>
 				<p className="introduction">
 					Crafting digital experiences with modern web technologies.
 					Specializing in React, Node.js, and beautiful user interfaces.

@@ -5,6 +5,50 @@ import "./Projects.css";
 const Projects = () => {
 	return (
 		<section id="projects" className="projects-section">
+			<img
+				className="projects_green"
+				src="src/assets/Projects_green.svg"
+				alt=""
+			/>
+			<img
+				className="projects_red1"
+				src="src/assets/Projects_red1.svg"
+				alt=""
+			/>
+			<img
+				className="projects_red2"
+				src="src/assets/Projects_red2.svg"
+				alt=""
+			/>
+			<img
+				className="projects_red3"
+				src="src/assets/Projects_red3.svg"
+				alt=""
+			/>
+
+			<img
+				className="projects_blue1"
+				src="src/assets/Projects_blue1.svg"
+				alt=""
+			/>
+			<img
+				className="projects_blue2"
+				src="src/assets/Projects_blue2.svg"
+				alt=""
+			/>
+			<img
+				className="projects_blue3"
+				src="src/assets/Projects_blue3.svg"
+				alt=""
+			/>
+			<img
+				className="projects_blue4"
+				src="src/assets/Projects_blue4.svg"
+				alt=""
+			/>
+
+			<img className="projects_lightblue" src="src/assets/Projects_lightblue.svg" alt="" />
+
 			<h2>Featured Projects</h2>
 			<div className="projects-grid">
 				{projectData.map((project, index) => (

@@ -62,7 +62,27 @@
 		"picture": "src/assets/Cortex.png",
 		"title": "Cortex Connect",
 		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
-		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot", "3D Maya"],
+		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot"],
+		"Links": [
+			{ "label": "Miro", "url": "#" },
+			{ "label": "Figma", "url": "#" }
+		]
+	},
+	{
+		"picture": "src/assets/Cortex.png",
+		"title": "Cortex Connect",
+		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
+		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot"],
+		"Links": [
+			{ "label": "Miro", "url": "#" },
+			{ "label": "Figma", "url": "#" }
+		]
+	},
+	{
+		"picture": "src/assets/Cortex.png",
+		"title": "Cortex Connect",
+		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
+		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot"],
 		"Links": [
 			{ "label": "Miro", "url": "#" },
 			{ "label": "Figma", "url": "#" }

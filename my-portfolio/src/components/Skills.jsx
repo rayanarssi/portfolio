@@ -12,7 +12,7 @@ const skillsData = [
 		image: "src/assets/Skills_green.svg",
 		list: ["Node.js", "Express", "MongoDB", "MySQL"],
 	},
-  {
+	{
 		category: "Design",
 		image: "src/assets/Skills_pink.svg",
 		list: ["Figma", "Adobe XD", "Photoshop", "Adobe Illustrator"],
@@ -22,12 +22,22 @@ const skillsData = [
 		image: "src/assets/Skills_blue.svg",
 		list: ["Angular", "Three.js", "TypeScript"],
 	},
-	
 ];
 
 const Skills = () => {
 	return (
 		<section id="skills" className="skills-section">
+			<img
+				className="skills_orange"
+				src="src/assets/Skills_orange.svg"
+				alt=""
+			/>
+			<img
+				className="skills_yellow"
+				src="src/assets/Skills_yellow.svg"
+				alt=""
+			/>
+
 			<h2>Skills & Technologies</h2>
 			<div className="skills-grid">
 				{skillsData.map((section, index) => (

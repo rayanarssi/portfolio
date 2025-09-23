@@ -7,6 +7,24 @@
 	top: -30vh;
 }
 
+.skills_orange {
+	position: absolute;
+	top: 20vh;
+	right: -10vw;
+	width: 60%;
+	height: auto;
+	z-index: 1;
+}
+
+.skills_yellow {
+	position: absolute;
+	top: 50vh;
+	left: -30vh;
+	width: 65%;
+	height: auto;
+	z-index: 1;
+}
+
 .skills-section h2 {
 	font-size: 3.5rem;
 	font-weight: 700;
@@ -41,6 +59,7 @@
 	border: 3px solid var(--dark);
 	border-radius: 12px;
 	padding: 30px;
+	z-index: 2;
 }
 
 .skills-card h3 {
@@ -64,6 +83,7 @@
 	font-size: 0.9rem;
 	font-weight: 600;
 	transition: background-color 0.3s ease;
+	
 }
 
 .skills-card:nth-child(1) .skill-tag {
@@ -80,6 +100,7 @@
 	background-color: var(--design-color);
 	color: var(--accent-color);
 	border: 3px solid var(--accent-color);
+	
 }
 .skills-card:nth-child(4) .skill-tag {
 	background-color: var(--learning-color);

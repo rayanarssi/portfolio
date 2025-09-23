@@ -5,11 +5,86 @@
 	top: -50vh;
 }
 
+.projects_green {
+	position: absolute;
+	top: 30vh;
+	width: 150vw;
+	left: -20vw;
+	height: auto;
+	z-index: -1;
+}
+
+.projects_red1 {
+	position: absolute;
+	top: 90vh;
+	left: -10vw;
+	height: auto;
+	z-index: -1;
+}
+
+.projects_red2 {
+	position: absolute;
+	top: 106vh;
+	left: -8.7vw;
+	height: auto;
+	z-index: -1;
+}
+
+.projects_red3 {
+	position: absolute;
+	top: 118vh;
+	left: -7.9vw;
+	height: auto;
+	z-index: -1;
+}
+
+.projects_blue1 {
+	position: absolute;
+	top: 10vh;
+	right: 3vw;
+	height: auto;
+	z-index: 5;
+}
+
+.projects_blue2 {
+	position: absolute;
+	top: 23vh;
+	right: -2vw;
+	height: auto;
+	z-index: 5;
+}
+
+.projects_blue3 {
+	position: absolute;
+	top: 35vh;
+	right: -5vw;
+	height: auto;
+	z-index: 5;
+}
+
+.projects_blue4 {
+	position: absolute;
+	top: 47vh;
+	right: -6vw;
+	height: auto;
+	z-index: 5;
+}
+
+.projects_lightblue {
+	position: absolute;
+	top: 150vh;
+	left: -22vw;
+	width: 50%;
+	height: auto;
+	z-index: -1;
+}
+
+
 .projects-section h2 {
 	font-size: 3.5rem;
 	font-weight: 700;
 	margin-bottom: 3rem;
-	color: var(--S);
+	color: var(--dark);
 }
 
 .projects-grid {
@@ -42,36 +117,35 @@
 }
 
 .project-card .project-image {
-    display: block;
-    position: relative;
-    z-index: 1;
+	display: block;
+	position: relative;
+	z-index: 1;
 }
 
 .project-image-wrapper::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    background: linear-gradient(to top, #ffffff 10%, transparent 100%);
-    z-index: 2;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: linear-gradient(to top, #ffffff 10%, transparent 100%);
+	z-index: 2;
 }
 
-
 .project-image-wrapper {
-    position: relative;
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
 }
 
 .project-image-wrapper img.project-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
 }
 
 .project-card h3 {

@@ -6,6 +6,50 @@
 	top: 0vh;
 }
 
+.home_blue {
+	position: absolute;
+	top: 50vh;
+	left: -20vw;
+	width: 50%;
+	height: auto;
+	z-index: -1;
+}
+
+.home_green {
+	position: absolute;
+	top: 20vh;
+	left: 15vh;
+	width: 20%;
+	height: auto;
+	z-index: -1;
+}
+
+.home_yellow {
+	position: absolute;
+	bottom: 25vh;
+	right: 2vw;
+	width: 15%;
+	height: auto;
+	z-index: -1;
+}
+
+.home_lightblue {
+	position: absolute;
+	top: 40vh;
+	right: 3vw;
+	width: 5%;
+	height: auto;
+	z-index: -1;
+}
+.home_purple {
+	position: absolute;
+	top: 10vh;
+	right: -15vw;
+	width: 50%;
+	height: auto;
+	z-index: -1;
+}
+
 .home-content .name {
 	font-size: 5rem;
 	font-weight: 700;
@@ -44,6 +88,6 @@
 .scroll-indicator {
 	display: flex;
 	justify-content: center;
-	margin-top: 100px; 
+	margin-top: 100px;
 	position: static;
 }
