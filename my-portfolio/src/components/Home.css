@@ -6,6 +6,7 @@
 	top: 0vh;
 }
 
+
 .home_blue {
 	position: absolute;
 	top: 50vh;
@@ -88,6 +89,6 @@
 .scroll-indicator {
 	display: flex;
 	justify-content: center;
-	margin-top: 100px;
+	margin-top: 50px;
 	position: static;
 }

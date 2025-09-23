@@ -17,7 +17,7 @@
 
 .contact_lightblue {
 	position: absolute;
-	bottom: 25vh;
+	bottom: 15vh;
 	left: 22vw;
 	z-index: 2;
 	width: 110px;
@@ -26,7 +26,7 @@
 
 .contacts_blue {
 	position: absolute;
-	bottom: 15vh;
+	bottom: 5vh;
 	left: 20vw;
 	z-index: 2;
 	width: 110px;

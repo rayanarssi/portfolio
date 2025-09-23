@@ -20,7 +20,7 @@ const skillsData = [
 	{
 		category: "Still Learning",
 		image: "src/assets/Skills_blue.svg",
-		list: ["Angular", "Three.js", "TypeScript"],
+		list: ["Angular", "Three.js", "TypeScript", "Framrer Motion"],
 	},
 ];
 

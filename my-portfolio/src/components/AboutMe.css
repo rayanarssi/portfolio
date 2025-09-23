@@ -1,5 +1,6 @@
 .about-section {
 	display: block;
+	width: 100%;
 	padding: 10px 0;
 	top: -10vh;
 }
