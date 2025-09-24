@@ -77,7 +77,7 @@ const Contact = () => {
 							<p>
 								<span className="contact_title">Email</span>
 								<br />
-								rayan.arssi@student.ehb.be
+								rayanarssipro@gmail.com
 							</p>
 						</div>
 						<div className="detail-item">

@@ -79,8 +79,7 @@ const Home = () => {
 					Frontend Developer & UX/UI Designer
 				</motion.p>
 				<motion.p className="introduction" variants={item}>
-					Crafting digital experiences with modern web technologies.
-					Specializing in React, Node.js, and beautiful user interfaces.
+					Creating clear and engaging digital experiences with a strong focus on usability and design. Skilled in frontend development with React and in crafting user-friendly, visually refined interfaces.
 				</motion.p>
 
 				<motion.div className="home-buttons" variants={item}>
