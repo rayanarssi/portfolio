@@ -30,7 +30,7 @@
 		]
 	},
 	{
-		"picture": "src/assets/Shift.png",
+		"picture": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736943/Shift_x6or4w.png",
 		"title": "Shift Festival",
 		"text": "This group project was developed with fellow students, where I focused on the festival’s design. I contributed to shaping the concept, creating the posters, and designing the website’s visual identity.",
 		"Softwares": ["Adobe Illustrator", "Figma", "Photoshop"],
@@ -47,7 +47,7 @@
 		]
 	},
 	{
-		"picture": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736943/Shift_x6or4w.png",
+		"picture": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736936/Cortex_pxhnkm.png",
 		"title": "Cortex Connect",
 		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
 		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot"],
