@@ -60,3 +60,12 @@ h2 {
 	color: var(--primary-color);
 	border: 2px solid var(--primary-color);
 }
+
+.portfolio-container {
+	width: 100%;
+	max-width: 1200px;
+	max-height: 710vh;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+}

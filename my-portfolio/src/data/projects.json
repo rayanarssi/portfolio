@@ -8,15 +8,7 @@
 			{
 				"img": "src/assets/Project_live_icon.svg",
 				"label": "Live Demo",
-				"url": "#"
-			},
-			{
-				"label": "Code",
-				"url": "#"
-			},
-			{
-				"label": "Figma",
-				"url": "#"
+				"url": "https://improved-disco-5k257ky.pages.github.io/signin.html"
 			}
 		]
 	},
@@ -32,12 +24,8 @@
 				"url": "https://ehb-mct.github.io/projectfiles-chill/index.html"
 			},
 			{
-				"label": "Code",
-				"url": "https://github.com/EHB-MCT/projectfiles-chill"
-			},
-			{
 				"label": "Figma",
-				"url": "#"
+				"url": "https://www.figma.com/design/EJlC5upjlBnC583lLB5mbS/Wireframe-sorrybox?node-id=0-1&t=VPbPnyBYauU4E1xW-1"
 			}
 		]
 	},
@@ -50,11 +38,11 @@
 			{
 				"img": "src/assets/Project_live_icon.svg",
 				"label": "Live Demo",
-				"url": "#"
+				"url": "https://shiftfestival.be/"
 			},
 			{
 				"label": "Figma",
-				"url": "#"
+				"url": "https://www.figma.com/design/75Q8P698kqzax5BOB1aXSL/FP4?node-id=7759-61&t=7TEbsdtaf6zvJFsa-1"
 			}
 		]
 	},
@@ -64,28 +52,32 @@
 		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
 		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot"],
 		"Links": [
-			{ "label": "Miro", "url": "#" },
-			{ "label": "Figma", "url": "#" }
+			{
+				"label": "Miro",
+				"url": "https://miro.com/welcomeonboard/M0hqRFYxTUdXOVFQcjZ4MlZEcEVWWm00cTU4VmtLdnRiRDZZRTZYNi9PK1JWakRhQXFFSXp0b2VwL3VIZTA0VkwzNW9pMWRIMU10Z1YvMVhyZUlzSzFCQWZwUkFsb0t5Z1FzdllIRW9lZHVneldhMlRGbjhKYUd2RVA2OFV4eGthWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=632272716139"
+			},
+			{
+				"label": "Figma",
+				"url": "https://www.figma.com/design/jl6pYoCaojhHGMfoDAVByO/Cortex-Connect?node-id=0-1&t=VlwjDJedOJrGitP7-1"
+			}
 		]
 	},
 	{
-		"picture": "src/assets/Cortex.png",
-		"title": "Cortex Connect",
-		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
-		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot"],
+		"picture": "src/assets/PalettePilot.png",
+		"title": "PalettePilot",
+		"text": "A React application that helps designers extract color palettes from images. Users can drag and drop images or links onto a canvas, automatically generate swatches, and save them for later use. The project is still under construction, starting with core drag-and-drop and palette extraction before expanding to accessibility checks and design exports.",
+		"Softwares": ["React", "Drag & Drop", "Color Theory"],
 		"Links": [
-			{ "label": "Miro", "url": "#" },
-			{ "label": "Figma", "url": "#" }
+		
 		]
 	},
 	{
-		"picture": "src/assets/Cortex.png",
-		"title": "Cortex Connect",
-		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
-		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot"],
+		"picture": "src/assets/FlowBoard.png",
+		"title": "FlowBoard",
+		"text": "An Angular app with an interactive Kanban board where tasks can be created, moved between columns (To Do, In Progress, Done), and deleted via drag & drop. The project is still under construction, starting with wireframes and a Figma prototype before comparing with the live Angular version.",
+		"Softwares": ["Angular", "Drag & Drop", "UI/UX", "Figma"],
 		"Links": [
-			{ "label": "Miro", "url": "#" },
-			{ "label": "Figma", "url": "#" }
+	
 		]
 	}
 ]
