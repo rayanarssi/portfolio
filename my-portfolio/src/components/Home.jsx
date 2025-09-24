@@ -38,34 +38,34 @@ const Home = () => {
 			{/* floating background shapes */}
 			<motion.img
 				className="home_blue"
-				src="./src/assets/Home_blue.svg"
+				src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736938/Home_blue_r9pvwi.svg"
 				alt="Rayan Arssi"
 				{...float}
 			/>
 			<motion.img
 				className="home_green"
-				src="./src/assets/Home_green.svg"
+				src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736938/Home_green_hlxfy4.svg"
 				alt="Rayan Arssi"
 				{...float}
 				transition={{ ...float.transition, duration: 5 }}
 			/>
 			<motion.img
 				className="home_yellow"
-				src="./src/assets/Home_yellow.svg"
+				src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736939/Home_yellow_cv1z2p.svg"
 				alt="Rayan Arssi"
 				{...float}
 				transition={{ ...float.transition, duration: 6 }}
 			/>
 			<motion.img
 				className="home_lightblue"
-				src="./src/assets/Home_lightblue.svg"
+				src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736938/Home_lightblue_ugnqet.svg"
 				alt="Rayan Arssi"
 				{...float}
 				transition={{ ...float.transition, duration: 5.5 }}
 			/>
 			<motion.img
 				className="home_purple"
-				src="./src/assets/Home_purple.svg"
+				src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736939/Home_purple_ok2h1y.svg"
 				alt="Rayan Arssi"
 				{...float}
 				transition={{ ...float.transition, duration: 6.5 }}
@@ -79,7 +79,9 @@ const Home = () => {
 					Frontend Developer & UX/UI Designer
 				</motion.p>
 				<motion.p className="introduction" variants={item}>
-					Creating clear and engaging digital experiences with a strong focus on usability and design. Skilled in frontend development with React and in crafting user-friendly, visually refined interfaces.
+					Creating clear and engaging digital experiences with a strong focus on
+					usability and design. Skilled in frontend development with React and
+					in crafting user-friendly, visually refined interfaces.
 				</motion.p>
 
 				<motion.div className="home-buttons" variants={item}>
@@ -96,7 +98,7 @@ const Home = () => {
 				<motion.div className="social-icons" variants={item}>
 					<a href="https://www.linkedin.com/in/rayan-arssi-138a062b9/">
 						<motion.img
-							src="./src/assets/LinkedIn.svg"
+							src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736939/Linkedin_sgodmi.svg"
 							alt="LinkedIn"
 							whileHover={{ scale: 1.05, rotate: -2 }}
 							whileTap={{ scale: 0.95 }}
@@ -105,7 +107,7 @@ const Home = () => {
 
 					<Link to="contact" smooth duration={500}>
 						<motion.img
-							src="./src/assets/Email.svg"
+							src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736937/Email_qyuaft.svg"
 							alt="Email"
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.95 }}
@@ -120,7 +122,10 @@ const Home = () => {
 					transition={{ duration: 1.6, repeat: Infinity }}
 				>
 					<Link to="about" smooth duration={500}>
-						<img src="./src/assets/Arrow.svg" alt="Scroll Down" />
+						<img
+							src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736936/Arrow_x5hygk.svg"
+							alt="Scroll Down"
+						/>
 					</Link>
 				</motion.div>
 			</motion.div>

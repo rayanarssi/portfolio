@@ -48,15 +48,15 @@ const Contact = () => {
 		>
 			<img
 				className="contact_purple"
-				src="src/assets/Contact_purple.svg"
+				src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736935/Contact_purple_yrwyny.svg"
 				alt=""
 			/>
 			<img
 				className="contact_lightblue"
-				src="src/assets/Contact_lightblue.svg"
+				src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736935/Contact_lightblue_ltlljs.svg"
 				alt=""
 			/>
-			<img className="contacts_blue" src="src/assets/Contact_blue.svg" alt="" />
+			<img className="contacts_blue" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736934/Contact_blue_vzhc3m.svg" alt="" />
 
 			<h2 className="contact-title">Get In Touch</h2>
 
@@ -73,7 +73,7 @@ const Contact = () => {
 
 					<div className="contact-details">
 						<div className="detail-item">
-							<img src="src/assets/Email_contact.svg" alt="Email Icon" />
+							<img src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736937/Email_contact_g1hhwx.svg" alt="Email Icon" />
 							<p>
 								<span className="contact_title">Email</span>
 								<br />
@@ -81,7 +81,7 @@ const Contact = () => {
 							</p>
 						</div>
 						<div className="detail-item">
-							<img src="src/assets/Phone.svg" alt="Phone Icon" />
+							<img src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736940/Phone_dwf9mc.svg" alt="Phone Icon" />
 							<p>
 								<span className="contact_title">Phone</span>
 								<br />
@@ -89,7 +89,7 @@ const Contact = () => {
 							</p>
 						</div>
 						<div className="detail-item">
-							<img src="src/assets/Location.svg" alt="Location Icon" />
+							<img src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736939/Location_plfjh1.svg" alt="Location Icon" />
 							<p>
 								<span className="contact_title">Location</span>
 								<br />

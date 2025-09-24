@@ -12,8 +12,8 @@ const AboutMe = () => {
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6 }}
     >
-      <img className="about_pink" src="./src/assets/About_pink.svg" alt="" />
-      <img className="about_red" src="./src/assets/About_red.svg" alt="" />
+      <img className="about_pink" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736934/About_pink_op8uzj.svg" alt="" />
+      <img className="about_red" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736934/About_red_zkcqtt.svg" alt="" />
 
       <h2 className="about-title">About Me</h2>
 
@@ -25,7 +25,7 @@ const AboutMe = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ type: "spring", stiffness: 100, damping: 14 }}
         >
-          <img src="src/assets/About_image.png" alt="Rayan Arssi" />
+          <img src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736935/About_image_qqcljj.png" alt="Rayan Arssi" />
         </motion.div>
 
         <motion.div

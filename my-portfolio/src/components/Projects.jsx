@@ -13,15 +13,15 @@ const Projects = () => {
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6 }}
     >
-      <img className="projects_green" src="src/assets/Projects_green.svg" alt="" />
-      <img className="projects_red1" src="src/assets/Projects_red1.svg" alt="" />
-      <img className="projects_red2" src="src/assets/Projects_red2.svg" alt="" />
-      <img className="projects_red3" src="src/assets/Projects_red3.svg" alt="" />
-      <img className="projects_blue1" src="src/assets/Projects_blue1.svg" alt="" />
-      <img className="projects_blue2" src="src/assets/Projects_blue2.svg" alt="" />
-      <img className="projects_blue3" src="src/assets/Projects_blue3.svg" alt="" />
-      <img className="projects_blue4" src="src/assets/Projects_blue4.svg" alt="" />
-      <img className="projects_lightblue" src="src/assets/Projects_lightblue.svg" alt="" />
+      <img className="projects_green" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736941/Projects_green_lioudb.svg" alt="" />
+      <img className="projects_red1" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736942/Projects_red1_k1a1jh.svg" alt="" />
+      <img className="projects_red2" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736942/Projects_red2_g1pb98.svg" alt="" />
+      <img className="projects_red3" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736942/Projects_red3_vbsg1j.svg" alt="" />
+      <img className="projects_blue1" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736940/Projects_blue1_zxqt48.svg" alt="" />
+      <img className="projects_blue2" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736941/Projects_blue2_fqwjhz.svg" alt="" />
+      <img className="projects_blue3" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736941/Projects_blue3_zflmhw.svg" alt="" />
+      <img className="projects_blue4" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736941/Projects_blue4_v2ikc9.svg" alt="" />
+      <img className="projects_lightblue" src="https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736942/Projects_lightblue_ovvtzc.svg" alt="" />
 
       <h2>Featured Projects</h2>
 
