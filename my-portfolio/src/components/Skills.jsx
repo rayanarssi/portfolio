@@ -4,7 +4,7 @@ import "./Skills.css";
 const skillsData = [
 	{
 		category: "Frontend",
-		image: "shttps://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736944/Skills_red_sjic41.svg",
+		image: "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736944/Skills_red_sjic41.svg",
 		list: ["React", "Vite.js", "Vue.js", "HTML/CSS"],
 	},
 	{
@@ -20,7 +20,7 @@ const skillsData = [
 	{
 		category: "Still Learning",
 		image: "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736942/Skills_blue_ihxq52.svg",
-		list: ["Angular", "Three.js", "TypeScript", "Framrer Motion"],
+		list: ["Angular", "Three.js", "TypeScript", "Framer Motion"],
 	},
 ];
 
