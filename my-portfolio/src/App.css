@@ -9,6 +9,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: var(--white);
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 	min-height: 100vh;
