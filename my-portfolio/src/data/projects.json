@@ -67,17 +67,20 @@
 		"title": "PalettePilot",
 		"text": "A React application that helps designers extract color palettes from images. Users can drag and drop images or links onto a canvas, automatically generate swatches, and save them for later use. The project is still under construction, starting with core drag-and-drop and palette extraction before expanding to accessibility checks and design exports.",
 		"Softwares": ["React", "Drag & Drop", "Color Theory"],
-		"Links": [
-		
-		]
+		"Links": []
 	},
 	{
 		"picture": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736938/FlowBoard_f51wkh.png",
 		"title": "FlowBoard",
 		"text": "An Angular app with an interactive Kanban board where tasks can be created, moved between columns (To Do, In Progress, Done), and deleted via drag & drop. The project is still under construction, starting with wireframes and a Figma prototype before comparing with the live Angular version.",
 		"Softwares": ["Angular", "Drag & Drop", "UI/UX", "Figma"],
-		"Links": [
-	
-		]
+		"Links": []
+	},
+	{
+		"picture": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1759145848/Solar_System_s6suxg.jpg",
+		"title": "AstroView",
+		"text": "This project is a web-based 3D Solar System built with React and Three.js. The user can explore the planets in real-time through interactive 3D graphics. Each planet orbits the sun with realistic motion and textures, and when a planet is clicked, additional information is displayed. The goal of this project is to learn Three.js fundamentals such as scene setup, lighting, textures, animations, and camera controls, while creating an engaging and educational experience that runs directly in the browser.",
+		"Softwares": ["React", "Three.js", "Framer Motion", "GSAP"],
+		"Links": []
 	}
 ]

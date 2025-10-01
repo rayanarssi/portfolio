@@ -76,7 +76,7 @@ const Home = () => {
 					Rayan Arssi
 				</motion.h1>
 				<motion.p className="title" variants={item}>
-					Frontend Developer & UX/UI Designer
+					Frontend Developer & Web Designer
 				</motion.p>
 				<motion.p className="introduction" variants={item}>
 					Creating clear and engaging digital experiences with a strong focus on
