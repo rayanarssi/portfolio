@@ -48,14 +48,10 @@
 	},
 	{
 		"picture": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736936/Cortex_pxhnkm.png",
-		"title": "Cortex Connect",
-		"text": "My project is an interactive 3D brain model connected with ESP32 sensors to a React and Three.js web application. It is still in development, and it is my first experience combining hardware, WiFi communication, and a web app.",
-		"Softwares": ["React", "Three.js", "Arduino", "AI/Chatbot"],
+		"title": "NeuroConnect",
+		"text": "An interactive web platform about brain health. It combines reliable information, a short self-test and a community where users can talk to verified experts. Through Neurocoins, users earn rewards for learning and helping others, making mental health support more engaging and accessible.",
+		"Softwares": ["React", "Three.js", "Node.js", "Gamification"],
 		"Links": [
-			{
-				"label": "Miro",
-				"url": "https://miro.com/welcomeonboard/M0hqRFYxTUdXOVFQcjZ4MlZEcEVWWm00cTU4VmtLdnRiRDZZRTZYNi9PK1JWakRhQXFFSXp0b2VwL3VIZTA0VkwzNW9pMWRIMU10Z1YvMVhyZUlzSzFCQWZwUkFsb0t5Z1FzdllIRW9lZHVneldhMlRGbjhKYUd2RVA2OFV4eGthWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=632272716139"
-			},
 			{
 				"label": "Figma",
 				"url": "https://www.figma.com/design/jl6pYoCaojhHGMfoDAVByO/Cortex-Connect?node-id=0-1&t=VlwjDJedOJrGitP7-1"
@@ -67,14 +63,13 @@
 		"title": "PalettePilot",
 		"text": "A React application that helps designers extract color palettes from images. Users can drag and drop images or links onto a canvas, automatically generate swatches, and save them for later use. The project is still under construction, starting with core drag-and-drop and palette extraction before expanding to accessibility checks and design exports.",
 		"Softwares": ["React", "Drag & Drop", "Color Theory"],
-		"Links": []
-	},
-	{
-		"picture": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736938/FlowBoard_f51wkh.png",
-		"title": "FlowBoard",
-		"text": "An Angular app with an interactive Kanban board where tasks can be created, moved between columns (To Do, In Progress, Done), and deleted via drag & drop. The project is still under construction, starting with wireframes and a Figma prototype before comparing with the live Angular version.",
-		"Softwares": ["Angular", "Drag & Drop", "UI/UX", "Figma"],
-		"Links": []
+		"Links": [
+			{
+				"img": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1758736940/Project_live_icon_vwvmij.svg",
+				"label": "Live Demo",
+				"url": "https://rayanarssi.github.io/palettepilot/"
+			}
+		]
 	},
 	{
 		"picture": "https://res.cloudinary.com/ddhxfqr1y/image/upload/v1759145848/Solar_System_s6suxg.jpg",
